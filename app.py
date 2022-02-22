@@ -153,7 +153,7 @@ def event_handle(event,json_line):
             replyObj = TextSendMessage(text="รอสักครู่นะคะทางร้านกำลังทำให้ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "ทั้งหมดกี่บาท" :
-            replyObj = TextSendMessage(text="60 บาทค่ะ โอนหรือเก็บเงินปลายทางคะ?")
+             replyObj = TextSendMessage(text="60 บาทค่ะ โอนหรือเก็บเงินปลายทางคะ?")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "เก็บปลายทางค่ะ" :
              replyObj = TextSendMessage(text="รับทราบค่ะ รบกวนคุณลูกค้ารีวิวอาหารของทางร้านด้วยนะคะ ขอบพระคุณที่ใช้บริการค่ะ")
